@@ -47,49 +47,53 @@ table {
 	border-spacing: 0;
 }
 
-body
+body {
   font-size: 14px;
 }
-/*nvaigation*/
+
+/*navigation*/
+
+body {
+	font-size: 14px;
+}
 nav {
   background color: yellow;
   height: 100px;
-  margin-top: -10px;
   position: fixed;
   width: 100%;
   text-align: center;
-  padding: 30px;
 }
 
-
-.section {
-  margin: 0 auto;
-  width: 60%;
+section {
+  width: 100%;
+	padding-top: 88px;
+	text-align: center;
 }
 
 h1 {
   font-family: sans-serif;
   font-size: 2em;
   height: 10vh;
+	text-align: center;
 }
 
 .example, h1 {
   background-color: yellow;
   padding-top: 30px;
-  text-align: center;
 }
+
 /* body */
+
 h3 {
   font-size: 1.3em;
 }
 
 .element {
   background-color: green;
-  height: 20vh;
-  width: 100px;
-  text-align: center;
+  height: 100px;
   width: 100%;
-  padding: 40px
+  padding: 40px;
+	text-align:center;
 }
 
 .change {
